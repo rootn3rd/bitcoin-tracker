@@ -1,0 +1,14 @@
+@import '../../theme/variables';
+page-bitcoin {
+    ion-grid {
+        margin-top: 20vh;
+    }
+    ion-img {
+        background: transparent;
+        width: 100px;
+        height: 100px;
+    }
+    h1 {
+        color: map-get($colors, primary);
+    }
+}
